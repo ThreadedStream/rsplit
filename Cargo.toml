@@ -1,0 +1,21 @@
+[package]
+name = "mapreduce"
+version = "0.1.0"
+edition = "2018"
+license = "GPL-3.0"
+authors = ["threadedstream"]
+
+[lib]
+name = "mapreduce"
+path = "src/lib.rs"
+doc = true
+
+[[bin]]
+name = "mapreduce"
+path = "src/lib.rs"
+doc = false
+
+[dependencies]
+rand = "0.8.4"
+float_eq = "0.7.0"
+
