@@ -112,18 +112,6 @@ fn worker_channels<T: 'static + std::marker::Send, R: 'static + std::marker::Sen
     return tchunks;
 }
 
-fn main() {
-    let v = vec![String::from("That"),
-                  String::from("That"),
-                  String::from("That"),
-                  String::from("That")];
-
-    let result = worker(v, helpers::is_matched);
-    for r in result {
-        println!("{}", r);
-    }
-}
-
 mod helpers {
     use super::*;
     use std::num;
