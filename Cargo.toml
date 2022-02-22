@@ -1,5 +1,5 @@
 [package]
-name = "mapreduce"
+name = "rsplit"
 version = "0.1.0"
 edition = "2018"
 license = "GPL-3.0"
