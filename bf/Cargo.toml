@@ -15,4 +15,7 @@ name = "bf"
 path = "src/lib.rs"
 doc = false
 
+[dependencies]
+libc = "0.2"
+
 
